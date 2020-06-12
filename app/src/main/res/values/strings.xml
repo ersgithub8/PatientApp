@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PatientApp</string>
+
+    <string name="no_bt_support">Your device doesn\'t support bluetooth.</string>
+    <string name="empty_device_name">&lt;New device&gt;</string>
+
+    <string name="select_device">Select device</string>
+    <string name="search_message">Search for devices…</string>
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="title_other_devices">Other devices</string>
+    <string name="none_paired">No paired devices</string>
+    <string name="none_found">Not found</string>
+    <string name="command_hint">Enter command here</string>
+    <string name="button_send">Send</string>
+
+    <string name="msg_not_connected">not connected</string>
+    <string name="msg_connecting">connecting…</string>
+    <string name="msg_connected">connected</string>
+    <string name="action_bluetooth">on/off</string>
+
+</resources>

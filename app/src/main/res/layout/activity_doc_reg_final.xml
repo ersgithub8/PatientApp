@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Phone:"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/mbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#efb7b8"
+            android:ems="10"
+            android:layout_marginRight="2dp"
+            android:hint="+92"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#5d5d5d"
+            android:textColorHint="#5d5d5d"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital Name:"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/hname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#efb7b8"
+            android:ems="10"
+            android:layout_marginRight="2dp"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#5d5d5d"
+            android:textColorHint="#5d5d5d"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital Location:"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/hnumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#efb7b8"
+            android:ems="10"
+            android:layout_marginRight="2dp"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#5d5d5d"
+            android:textColorHint="#5d5d5d"
+            android:textSize="16sp" />
+
+
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="I have read all the terms and conditions" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subscribe to our Newsletter" />
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient"
+            android:text="Register"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="Name:"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="5dp"
+            >
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#efb7b8"
+                android:ems="10"
+                android:layout_marginRight="2dp"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#5d5d5d"
+                android:textColorHint="#5d5d5d"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#efb7b8"
+                android:ems="10"
+                android:layout_marginLeft="2dp"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#5d5d5d"
+                android:textColorHint="#5d5d5d"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#efb7b8"
+            android:ems="10"
+            android:layout_marginRight="2dp"
+            android:hint="Enter A Valid Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#5d5d5d"
+            android:textColorHint="#5d5d5d"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose A Username:"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#efb7b8"
+            android:ems="10"
+            android:layout_marginRight="2dp"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#5d5d5d"
+            android:textColorHint="#5d5d5d"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose A Password:"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#efb7b8"
+            android:ems="10"
+            android:layout_marginRight="2dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#5d5d5d"
+            android:textColorHint="#5d5d5d"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Your Password:"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#3d3d3d"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/cfrm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#efb7b8"
+            android:ems="10"
+            android:layout_marginRight="2dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#5d5d5d"
+            android:textColorHint="#5d5d5d"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btn_nxt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_mail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gradient"
+            android:text="Next"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

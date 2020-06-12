@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#FFF</item>         <!--Text color of toolbar title -->
+        <item name="android:textColorSecondary">#FFF</item>        <!--Text color of toolbar drawer(3dots) -->
+    </style>
+
+    <style name="DialogTheme" parent="@android:style/Theme.Holo.Dialog"/>
+</resources>
